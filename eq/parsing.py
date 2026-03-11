@@ -87,7 +87,7 @@ class EqParser:
             "e": Number(np.e),
             "pi": Number(np.pi),
             "inf": Number(np.inf),
-            "i": Number(np.complex(0, 1))
+            "i": Number(complex(0, 1))
         }
 
     def __getitem__(self, item):
